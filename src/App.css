@@ -1,0 +1,110 @@
+/* src/styles/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* src/styles/App.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: space-between; /* Space products evenly */
+  margin: 20px;
+}
+
+/* src/styles/App.css */
+
+.cart {
+  margin: 20px;
+}
+
+.cart h2 {
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 5px 0;
+}
+
+/* src/styles/App.css */
+
+.App {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.main-content {
+  margin-left: 260px; /* Adjusted based on the open sidebar width */
+  margin-top: 60px;
+  padding: 20px;
+  flex-grow: 1; 
+}
+
+/* Adjust the margin-left dynamically based on sidebar state */
+.sidebar.closed + .main-content {
+  margin-left: 80px; /* Adjusted for closed sidebar */
+}
+
+/* src/styles/App.css */
+
+.App {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.main-content {
+  margin-left: 260px; /* Adjusted based on the open sidebar width */
+  margin-top: 60px;
+  padding: 20px;
+  flex-grow: 1; 
+}
+
+/* Adjust the margin-left dynamically based on sidebar state */
+.sidebar.closed + .main-content {
+  margin-left: 80px; /* Adjusted for closed sidebar */
+}
+
+/* When sidebar is hidden */
+.main-content {
+  margin-left: 0; /* No sidebar, no margin */
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59868b87.css",
+    "main.js": "/static/js/main.96e5352e.js",
+    "static/js/453.16ea8eb2.chunk.js": "/static/js/453.16ea8eb2.chunk.js",
+    "static/media/jeans.jpg": "/static/media/jeans.0b6627a3d2b55d68b0ca.jpg",
+    "static/media/Jacket.jpg": "/static/media/Jacket.fde2ea938a40c706856f.jpg",
+    "static/media/tshirt.jpg": "/static/media/tshirt.ef05b6d8ec248550e5b6.jpg",
+    "index.html": "/index.html",
+    "main.59868b87.css.map": "/static/css/main.59868b87.css.map",
+    "main.96e5352e.js.map": "/static/js/main.96e5352e.js.map",
+    "453.16ea8eb2.chunk.js.map": "/static/js/453.16ea8eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59868b87.css",
+    "static/js/main.96e5352e.js"
+  ]
+}

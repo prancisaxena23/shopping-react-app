@@ -1,0 +1,32 @@
+/* src/components/ProductItem.css */
+
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+.product-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-item button:hover {
+    background-color: #218838;
+}
+
+.product-item {
+    flex: 1 1 calc(25.0% - 20px); /* 4 items per row, with space for margins */
+    margin: 10px; /* Space between items */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
